@@ -1,9 +1,9 @@
 export const Bio = {
   name: "Himanshu Dorbi",
   roles: [
-    "Programmer",
+    "Software Engineer",
     "MERN Stack Developer",
-    "Aspiring Engineer",
+    "Problem Solver",
 
   ],
   description:
@@ -190,12 +190,21 @@ export const skills = [
 export const education = [
   {
     id: 0,
+    img: "https://i.ibb.co/xtrM36V5/IMG-20250222-113108.png",
+    school: "Product Engineer Intern - FullStack",
+    date: "Feb 2025 - Present",
+    location: "On-site, INDIA",
+    desc: "Working on the Program Management Portal module of SEW’s flagship CX Platform, developing frontend features, forms using React, Formik, and Yup to enhance usability and performance. Optimized sidebar navigation and filter forms, resulting in a 24% improvement in efficiency and user workflow for program management. Actively participating in Agile sprints, gaining exposure to the end-to-end product development lifecycle and cross-functional collaboration.",
+    degree: "Smart Energy Water",
+  },
+  {
+    id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6W0PQeYajKbhZ-icQ9crtydl_xeARJoxt4WrgOW7bs0qggLJhrHjab4w8OAoft_yOdM&usqp=CAU",
-    school: "Software Engineer Intern",
+    school: "SDE Intern",
     date: "Oct 2023 - Jan 2024",
     location: "Remote, INDIA",
     desc: "Handled backend development for UcliQ Seller and buyer app with admin panel having 1K+ active users, using Node.js, Express.js, MongoDB. Optimized backend for scalability and performance, ensuring a seamless user experience. Conducted testing with Postman and maintained comprehensive documentation for efficient development. Addressed real-life project bugs and continuously improved application reliability.",
-    degree: "UCLIQ - Connecting Farm to Retail",
+    degree: " UCLIQ",
   },
   {
     id: 1,
@@ -222,7 +231,7 @@ export const education = [
 
   {
     id: 3,
-    img: "https://yt3.googleusercontent.com/h0n8phylgeZKuMlGmcPhkOM8rkV1IHTr5oumqZL581iQCSeMeFrnmYB69a69RQAQoVqgxM5ENX8=s900-c-k-c0x00ffffff-no-rj",
+    img: "https://cdn.theorg.com/36218b9f-879b-481e-9332-ebc4692d7587_thumb.jpg",
     school: "Data Structures and Algorithms",
     date:"August 2022 - Present",
     profile: "https://leetcode.com/dorbihimanshu306",
@@ -253,6 +262,31 @@ export const education = [
 export const projects = [
   {
     id: 9,
+    title: "EventManage",
+    date: "January 2025",
+    description:
+      "A comprehensive event management system built with a modern tech stack, designed to streamline event creation, management, and organization. This full-stack application offers seamless **user authentication and authorization**, ensuring secure access. Users can efficiently **create, manage, and categorize events**, making it easier to find relevant gatherings. With **search and filter functionalities**, attendees can quickly discover events of interest. The platform also supports **event registration and unregistration**, allowing users to manage their participation effortlessly. Additionally, it features **user profile management and a personalized dashboard**, enhancing the overall experience. Built with a **responsive design**, the system ensures smooth usability across all devices.",
+    image:
+      "https://private-user-images.githubusercontent.com/105678703/411323904-5ce10f78-ee5c-45e4-8f10-8f160ca8ba33.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAyMDc3NjIsIm5iZiI6MTc0MDIwNzQ2MiwicGF0aCI6Ii8xMDU2Nzg3MDMvNDExMzIzOTA0LTVjZTEwZjc4LWVlNWMtNDVlNC04ZjEwLThmMTYwY2E4YmEzMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIyMlQwNjU3NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03N2ZhYWZhNWU2ODNjODNmN2I3NDlkZTg3NTZjNGFhZjlmNDZkMGFhNzBkNjA2NDZkOTA2YTNkOWNmMDljMWQ3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.rtvrdXb5S7ZP5zSkOinH9EJLKC3vFYrJwtJXVfCgAcQ",
+    tags: [
+      "TypeScript",
+     "TailwindCSS",
+      "React Js",
+      "Redux toolkit",
+      "Stripe",
+      "Firebase",
+      "MongoDb",
+      "Node Js",
+      "ContextAPI",
+      "Express Js",
+     
+    ],
+    category: "web app",
+    github: "https://github.com/HimanshuDorbi/eventManage",
+    webapp: "https://github.com/HimanshuDorbi/eventManage",
+  },
+  {
+    id: 9,
     title: "Trip-Tarang",
     date: "Jun 2023",
     description:
@@ -260,7 +294,7 @@ export const projects = [
     image:
       "https://i.ibb.co/wN7KSWn/Screenshot-2024-04-20-024541.png",
     tags: [
-      "JacaScript",
+      "JavaScript",
      "TailwindCSS",
       "CI/CD",
       "React Js",
